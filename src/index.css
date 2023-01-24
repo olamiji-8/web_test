@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@keyframes video{
+
+  100%{transform: translateY(-2950px);}
+
+}
+.video{
+  animation: video 10s linear infinite;
+}
